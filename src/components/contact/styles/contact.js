@@ -19,7 +19,7 @@ export const Box = styled.div`
 
   @media screen and (min-width: 992px) {
     max-width: 980px;
-    padding: 24rem 0;
+    padding: 20rem 0;
   }
 
   // @media screen and (min-width: 768px) {

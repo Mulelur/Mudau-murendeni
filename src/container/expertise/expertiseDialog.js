@@ -3,10 +3,10 @@ import { useStoreState, useStoreActions } from "easy-peasy";
 import Dialog from "@mui/material/Dialog";
 import CloseIcon from "@mui/icons-material/Close";
 import Slide from "@mui/material/Slide";
-import { Button, ClearButton } from "../../components/buttons";
+import { ClearButton } from "../../components/buttons";
 import { Expertise } from "../../components";
-import TimeIcon from "../../components/svg/Time";
 import SmTime from "../../components/svg/SMTime";
+import IMG from "../../assets/MM.jpeg";
 
 import Intros from "../Intros";
 
@@ -59,7 +59,7 @@ export default function ExpertiseDialog() {
                             <Expertise.Link href={item.link}>
                               <Expertise.Img
                                 alt="img"
-                                src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+                                src="https://images.unsplash.com/photo-1604079628040-94301bb21b91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2731&q=80"
                               />
                             </Expertise.Link>
                             <Expertise.TextBox>
@@ -119,7 +119,7 @@ export default function ExpertiseDialog() {
                 <Expertise.Content>
                   <Expertise.Heading2>Management Matrix</Expertise.Heading2>
                   <Expertise.MML>
-                    <TimeIcon />
+                    <img src={IMG} />
                   </Expertise.MML>
                   <Expertise.MMS>
                     <SmTime />
@@ -127,7 +127,7 @@ export default function ExpertiseDialog() {
                 </Expertise.Content>
               </Expertise.Container>
             </Expertise.Box>
-            <Expertise.Box>
+            {/* <Expertise.Box>
               <Expertise.Content>
                 <Expertise.Column>
                   <Expertise.Project>
@@ -146,7 +146,7 @@ export default function ExpertiseDialog() {
                   </Expertise.ButtonContainer>
                 </Expertise.Column>
               </Expertise.Content>
-            </Expertise.Box>
+            </Expertise.Box> */}
           </Expertise>
         </>
       </Dialog>

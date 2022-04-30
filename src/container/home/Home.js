@@ -31,7 +31,7 @@ export default function SectionHeaderContainer() {
       <Home.Box>
         <Home.Container>
           <Home.Content>
-            <Home.Text>{homePage.quote}</Home.Text>
+            {/* <Home.Text>{homePage.quote}</Home.Text> */}
             <Button onClick={() => handleClickOpen(1)}>Explore more...</Button>
           </Home.Content>
         </Home.Container>
@@ -39,7 +39,7 @@ export default function SectionHeaderContainer() {
       <Home.Box>
         <Home.Container>
           <Home.Content>
-            <Home.Heading2>{homePage.text}</Home.Heading2>
+            {/* <Home.Heading2>{homePage.text}</Home.Heading2> */}
             <Home.Links>
               <Home.Link>CONTACT@FOLIO.DESIGN</Home.Link>
               <Home.Divider>|</Home.Divider>

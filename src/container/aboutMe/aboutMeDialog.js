@@ -87,7 +87,7 @@ export default function AboutMeDialog() {
                 </AboutMe.Content>
               </AboutMe.Container>
             </AboutMe.Box>
-            <AboutMe.Box>
+            {/* <AboutMe.Box>
               <AboutMe.Container>
                 <AboutMe.TextCenter>
                   <AboutMe.TextCenter>
@@ -98,7 +98,7 @@ export default function AboutMeDialog() {
                   </AboutMe.TextCenter>
                 </AboutMe.TextCenter>
               </AboutMe.Container>
-            </AboutMe.Box>
+            </AboutMe.Box> */}
           </AboutMe>
           <FooterContainer color="rgb(22, 28, 45)" />{" "}
         </>
